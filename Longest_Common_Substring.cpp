@@ -28,13 +28,13 @@ int LCSubStr(std::string X, std::string Y){
 		}
 	}
 
-	for (size_t i = 0; i < m + 1; i++) {
-		for (size_t j = 0; j < n + 1; j++) {
-			std::cout << LCSuff[i][j] << " ";
-		}
-		std::cout << std::endl;
-	}
-	std::cout << std::endl;
+	//for (size_t i = 0; i < m + 1; i++) {
+	//	for (size_t j = 0; j < n + 1; j++) {
+	//		std::cout << LCSuff[i][j] << " ";
+	//	}
+	//	std::cout << std::endl;
+	//}
+	//std::cout << std::endl;
 	return result;
 }
 
